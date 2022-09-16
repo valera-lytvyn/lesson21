@@ -1,0 +1,68 @@
+.wrapper {
+  background: #fcfcf0; }
+  .wrapper .container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column; }
+    .wrapper .container h1 {
+      font-size: 28px;
+      font-family: "Arial";
+      font-weight: 700;
+      letter-spacing: 2px;
+      line-height: 30px;
+      color: #232323;
+      margin: 0 auto; }
+    .wrapper .container .stage {
+      margin: 20px 10px;
+      font-size: 18px;
+      font-family: "Arial";
+      font-weight: 400;
+      letter-spacing: 2px;
+      line-height: 22px;
+      color: #232323;
+      display: flex;
+      justify-content: start;
+      align-items: center; }
+      .wrapper .container .stage .input_text,
+      .wrapper .container .stage .input_number {
+        font-size: 18px;
+        font-family: "Arial";
+        font-weight: 400;
+        letter-spacing: 2px;
+        line-height: 22px;
+        color: #232323;
+        text-indent: 10px;
+        border: 2px solid #e78a11;
+        margin: 0 10px;
+        width: 100px; }
+      .wrapper .container .stage .input_text {
+        width: 200px; }
+      .wrapper .container .stage .button {
+        border: 2px solid #e78a11;
+        background-color: #ffffff;
+        height: 30px;
+        width: 150px;
+        border-radius: 5px; }
+      .wrapper .container .stage .result {
+        font-size: 18px;
+        font-family: "Arial";
+        font-weight: 400;
+        letter-spacing: 2px;
+        line-height: 22px;
+        color: #232323;
+        border: 1px solid transparent;
+        margin-left: 15px; }
+    .wrapper .container .button {
+      border: 2px solid #e78a11;
+      background-color: #ffffff;
+      height: 60px;
+      width: 150px;
+      border-radius: 5px;
+      font-size: 18px;
+      font-family: "Arial";
+      font-weight: 400;
+      letter-spacing: 2px;
+      line-height: 22px;
+      color: #232323;
+      margin: 15px; }

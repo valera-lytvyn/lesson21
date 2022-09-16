@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   <link rel="icon" href="img/logo/smile.svg" />
+   <link rel="stylesheet" href="css/reset.css" />
+   <link rel="stylesheet" href="css/main.css" />
+   <title>hello_js</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="container">
+         <h1>То є маленька анкета</h1>
+         <div class="stage">
+            <p>Введіть своє ім'я</p>
+            <input type="text" class="user_name input_text">
+            <button class="button button_name"> Тисни ТУТ</button>
+            <div class="result"></div>
+         </div>
+         <div class="stage">
+            <p>Введіть рік свого народження</p>
+            <input type="number" class="year_birth input_number">
+            <button class="button button_birth"> Тисни ТУТ</button>
+            <div class="result result_birth"></div>
+         </div>
+         <div class="stage">
+            <p>Введіть довжину сторони квадрата</p>
+            <input type="number" class="length_side_square input_number">
+            <button class="button button_length_side_square"> Тисни ТУТ</button>
+            <div class="result result_perimeter"></div>
+         </div>
+         <div class="stage">
+            <p>Введіть радіус круга</p>
+            <input type="number" class="radius_circle input_number">
+            <button class="button button_radius_circle"> Тисни ТУТ</button>
+            <div class="result result_area"></div>
+         </div>
+         <div class="stage">
+            <p>Введіть відстань між містами</p>
+            <input type="number" class="distance input_number">
+            <p>Введіть час поїздки</p>
+            <input type="number" class="travel_time input_number">
+            <button class="button button_speed"> Тисни ТУТ</button>
+            <div class="result result_speed"></div>
+         </div>
+         <div class="stage">
+            <p>Конвертор валют. Курс 1 USD = 0.99 EUR Введіть суму в доларах</p>
+            <input type="number" class="dollar input_number">
+            <button class="button button_exchange_rate"> Тисни ТУТ</button>
+            <div class="result result_exchange_rate"></div>
+         </div>
+         <div class="stage">
+            <p>Введіть об'єм флешки в Гб </p>
+            <input type="number" class="gb input_number">
+            <button class="button button_gb"> Тисни ТУТ</button>
+            <div class="result result_in_bytes"></div>
+         </div>
+         <button  onclick="number_chocolates()"  class="button"> Кількість шоколадок </button>
+         <button  onclick="three_digit_number()"  class="button"> Трьохзначне число </button>
+         <button  onclick="deposit()"  class="button">Депозит в банку </button>
+         <button  onclick="test()"  class="button">test</button>
+
+      </div>
+   </div>
+   <script src="js/script.js">
+   </script>
+</body>
+
+</html>

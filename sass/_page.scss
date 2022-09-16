@@ -1,0 +1,58 @@
+.wrapper {
+
+   background: rgb(252, 252, 240);
+
+   .container {
+      @include display($df, start, start);
+      flex-direction: column;
+
+      h1 {
+
+         @include font(28px, 'Arial', 700, 2px, 30px, $color_23);
+         margin: 0 auto;
+      }
+
+      .stage {
+         margin: 20px 10px;
+         @include font(18px, 'Arial', 400, 2px, 22px, $color_23);
+         @include display($df, start, $ai);
+
+
+         .input_text,
+         .input_number {
+            @include font(18px, 'Arial', 400, 2px, 22px, $color_23);
+            text-indent: 10px;
+            border: 2px solid rgb(231, 138, 17);
+            margin: 0 10px;
+            width: 100px;
+         }
+
+         .input_text {
+            width: 200px;
+         }
+
+         .button {
+            border: 2px solid rgb(231, 138, 17);
+            background-color: $color_w;
+            @include size(30px, 150px);
+            border-radius: 5px;
+         }
+
+         .result {
+            @include font(18px, 'Arial', 400, 2px, 22px, $color_23);
+            border: 1px solid transparent;
+            margin-left: 15px;
+         }
+
+      }
+
+      .button {
+         border: 2px solid rgb(231, 138, 17);
+         background-color: $color_w;
+         @include size(60px, 150px);
+         border-radius: 5px;
+         @include font(18px, 'Arial', 400, 2px, 22px, $color_23);
+         margin: 15px;
+      }
+   }
+}
